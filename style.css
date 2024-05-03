@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+}
+header{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-1 nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap:1rem;
+   font-size: 18px;
+}
+.header-1 nav input{
+    background: transparent;
+    border: none;
+    font-size: 18px;
+}
+.header-1 nav .text{
+   text-transform: capitalize;
+font-weight: bold;
+}
+.header-2{
+    display: flex;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    gap:0.5rem;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    gap: 0.5rem;
+    display: flex;
+}
+.head-1{
+    background-color: rgba(75, 73, 104, 0.728);
+    padding: 5px;
+}
+.head-2{
+    background-color: orange;
+    padding: 5px;
+}
+.head-3{
+    background-color: blue;
+    padding: 5px;
+}
+.head-4{
+    background-color: red;
+    padding: 5px;
+}
+.head-5{
+    background-color: green;
+    padding: 5px;
+}
+.head-6{
+    background-color: green;
+    padding: 5px;
+}
+.head-7{
+    background-color: red;
+    padding: 5px;
+}
+.head-8{
+    background-color: skyblue;
+    padding: 5px;
+}
+
+/* ----------------------section------------------------------*/
+aside{
+    background-color: white;
+    height: 100%;
+    width: 50vw;
+}
+.aside1{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.asi1 table{
+    width: 200px;
+    border: 2px solid rgb(211, 205, 205);
+}
+.asi1 td{
+    border-right: 2px solid rgb(211, 205, 205);   
+}
+.asi1 td:last-child{
+    border-right: none;
+}
+#select{
+    padding: 4px;
+    border: none;
+}
+#select1{
+    padding: 4px;
+}
+#select2{
+    padding: 4px;
+}
+.asi2 table{
+    width: 400px;
+    border: 2px solid rgb(211, 205, 205);
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+    padding: 4px;
+}
+.d-flex .btn{
+    background: transparent;
+    border: none;
+    color: black;
+    padding: 4px;
+}
+.d-flex .text{
+    background: transparent;
+    border: none;
+    width: 300px;
+    padding: 4px;
+    
+}
+.d-flex .text::before{
+    background: transparent;
+    border: none;
+    width: 200px;
+    
+}
+.d-flex .text::after{
+    background: transparent;
+    border: none;
+    width: 200px;
+    
+}
+
+
+.aside2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.aside2  table{
+     border: 1px solid rgb(211, 205, 205);
+     width: 635px;
+     font-size: 14px;
+}
+.aside2  table:first-child{
+    border-top: 1px solid rgb(239, 238, 238);
+    width: 635px;
+}
+.aside2 thead{
+    border-bottom: 1px solid rgb(211, 205, 205);
+}
+.aside2 td{
+    border-right: 1px solid rgb(211, 205, 205);
+    border-bottom: 1px solid rgb(211, 205, 205);
+}
+.aside2 td:last-child{
+    border-right: none;
+}
+.form1{
+     display: flex;
+     
+}
+.form1 .min{
+    color: red;
+    background: transparent;
+    border: 1px solid rgb(211, 205, 205);
+    padding: 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.form1 .plus{
+    color: rgb(13, 226, 226);
+    background: transparent; 
+    border: 1px solid rgb(211, 205, 205);
+    padding: 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+i{
+    cursor: pointer;
+}
+.form1 input{
+    background: transparent; 
+    border: 1px solid rgb(211, 205, 205);
+    padding: 2px;
+    text-align: start;
+    width: 130px;
+    padding-left: 9px;
+    font-size: 15px;
+}
